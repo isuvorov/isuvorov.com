@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 export const AboutCard = ({ children = null }: { children: React.ReactNode }) => (
   <div className="flex justify-center items-center" style={{ minHeight: '80vh' }}>
     {/* <div className="bg-white p-8 rounded shadow-lg">asdas</div> */}

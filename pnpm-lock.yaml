@@ -49,6 +49,9 @@ devDependencies:
   '@types/react-dom':
     specifier: ^18.2.12
     version: 18.2.12
+  '@types/react-syntax-highlighter':
+    specifier: ^15.5.8
+    version: 15.5.8
   autoprefixer:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
@@ -427,6 +430,12 @@ packages:
 
   /@types/react-dom@18.2.12:
     resolution: {integrity: sha512-QWZuiA/7J/hPIGocXreCRbx7wyoeet9ooxfbSA+zbIWqyQEE7GMtRn4A37BdYyksnN+/NDnWgfxZH9UVGDw1hg==}
+    dependencies:
+      '@types/react': 18.2.27
+    dev: true
+
+  /@types/react-syntax-highlighter@15.5.8:
+    resolution: {integrity: sha512-GT1PLGzhF3ilGaQiCHFDShxDBb014s01MQi0nWfXJ23efjWfUrZ2i0g4tH1JGdfnIGBtQDge/k3ON3fLoAuU/w==}
     dependencies:
       '@types/react': 18.2.27
     dev: true

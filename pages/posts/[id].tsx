@@ -9,7 +9,13 @@ import remarkGfm from 'remark-gfm';
 import PostLayout from '@/components/PostLayout';
 
 const components = {
-  code({ node, inline, className, children, ...props }: any) {
+  code({
+    // node,
+    inline,
+    className,
+    children,
+    ...props
+  }: any) {
     const match = /language-(\w+)/.exec(className || '');
     return !inline && match ? (
       <SyntaxHighlighter
