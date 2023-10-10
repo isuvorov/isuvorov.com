@@ -1,3 +1,5 @@
+import { cvLink } from '@/config/config';
+
 /* eslint-disable @next/next/no-img-element */
 export const Navbar = ({ title }: { title?: boolean }) => (
   <nav className="bg-white border-gray-200 dark:bg-gray-900">
@@ -15,10 +17,11 @@ export const Navbar = ({ title }: { title?: boolean }) => (
       </a>
       <div className="flex md:order-2">
         <a
-          href="/api/cv"
+          href={cvLink}
           target="_blank"
           // eslint-disable-next-line max-len
           className="border text-blue-700 border-blue-700  hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          rel="noreferrer"
         >
           {/* Get started */}
           Get my CV
