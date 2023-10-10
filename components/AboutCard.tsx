@@ -1,6 +1,5 @@
-
-export const AboutCard = ({ children }) => (
-  <div className="flex justify-center items-center" style={{minHeight: '80vh'}}>
+export const AboutCard = ({ children = null }: { children: React.ReactNode }) => (
+  <div className="flex justify-center items-center" style={{ minHeight: '80vh' }}>
     {/* <div className="bg-white p-8 rounded shadow-lg">asdas</div> */}
     <div className="text-center">
       <div className="flex justify-center mb-8">

@@ -1,4 +1,3 @@
-import { AboutCard } from '@/components/AboutCard';
 import { AboutCardWithLinks } from '@/components/AboutCardWithLinks';
 import { Navbar } from '@/components/Navbar';
 

@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 export const EmailIcon = ({ ...props }) => (
   <svg
     aria-hidden="true"

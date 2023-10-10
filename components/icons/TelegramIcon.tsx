@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 export const TelegramIcon = ({ ...props }) => (
   <svg
     aria-hidden="true"
