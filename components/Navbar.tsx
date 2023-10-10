@@ -1,16 +1,16 @@
-export const Navbar = () => (
+/* eslint-disable @next/next/no-img-element */
+export const Navbar = ({ title }: { title?: boolean }) => (
   <nav className="bg-white border-gray-200 dark:bg-gray-900">
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="https://github.com/" className="flex items-center">
+      <a href="https://isuvorov.com" className="flex items-center">
         {/* <img
           src="https://flowbite.com/docs/images/logo.svg"
           className="h-8 mr-3"
           alt="Flowbite Logo"
         /> */}
-
-        <img src="/image/logo.png" alt="Logo" className="h-8 mr-3" />
-        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-          {/* Igor Suvorov */}
+        <img src="/images/logo.png" alt="Logo" className="h-8 mr-3" />
+        <span className="self-center text-1xl font-semibold whitespace-nowrap dark:text-white">
+          {title && 'Igor Suvorov'}
         </span>
       </a>
       <div className="flex md:order-2">

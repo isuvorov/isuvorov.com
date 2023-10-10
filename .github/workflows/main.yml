@@ -40,6 +40,7 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           pnpm-version: ${{ env.PNPM_VERSION }}
+          command: pnpm build
       - name: Static HTML export with Next.js
         run: npm run export
       - name: Upload artifact

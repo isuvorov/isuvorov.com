@@ -3,7 +3,7 @@ export const AboutCard = ({ children = null }: { children: React.ReactNode }) =>
     {/* <div className="bg-white p-8 rounded shadow-lg">asdas</div> */}
     <div className="text-center">
       <div className="flex justify-center mb-8">
-        <img src="/image/face-left.png" alt="Image" style={{ height: 250 }} />
+        <img src="/images/face-left.png" alt="Image" style={{ height: 250 }} />
       </div>
       <h1 className="font-normal text-gray-900 text-4xl md:text-6xl leading-none mb-6">
         Igor Suvorov
